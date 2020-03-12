@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -49,18 +50,131 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	font-weight: normal;
+  	font-style: normal;
 }
 
+
 /* Your code starts here! */
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+	padding: 5%;
+	border: 1px solid black;
+}
+
+.navigation{
+	display: inline-block;
+	float: left;
+}
+
+/*Navigation Links */
+.navigation a {
+	color: black;
+	text-decoration: none;
+	padding-right: 10px;
+}
+
+/* Website Logo For Nav Bar */
+.navLogo{
+	display: inline-block;
+	float: right;
+}
+
+/* Header */
+.header {
+	width: 80%;
+	margin: 0 auto;
+	border-bottom: 1px solid black;
+	
+}
+
+.header div{ 
+	display: inline-block;
+	margin-bottom: 10%;
+	margin-left: 10%;
+}
+
+.header h1{
+	font-size: 60px;
+	text-align: center; 
+	margin-bottom: 30px;
+}
+
+
+.header img{
+	margin-left: 30%;
+	margin-top: 10%;
+}
+
+.header a{
+	border: 2px solid black;
+	margin-left: 30%;
+}
+
+
+
+.section1 div {
+	display: inline-block;
+	border: 1px solid red;
+	width: 30%;
+	margin-left: 15%;
+}
+
+.section2 div {
+	display: inline-block;
+	border: 1px solid red;
+	width: 30%;
+	margin-left: 50%;
+	margin-top: 0%;
+}
+
+.section3SpacerIMG {
+	margin-top: 1%;
+	margin-left: 15%;
+}
+
+.section3 div{
+	display: inline-block;
+	border: 1px solid red;
+	width: 30%;
+	margin-top: 2%;
+	margin-left: 15%;
+}
+
+.section4 div{
+	display: inline-block;
+	border: 1px solid red;
+	width: 30%;
+	margin-left: 50%;
+	margin-top: 0%;
+}
+
+.section5 div{
+	display: inline-block;
+	width: 30%;
+	margin-top: 2%;
+	margin-left: 15%;
+}
+
+
+.section6 div{
+	display: inline-block;
+	width: 30%;
+	margin-top: 2%;
+	margin-left: 15%;
+}
